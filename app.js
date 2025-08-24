@@ -9,7 +9,7 @@ const cookie =require('cookie-parser')
 databaseconnect()
 
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin:'https://ui-builder-frontend-hw8s.vercel.app/',
     methods:['GET','POST','PUT','DELETE'],
     credentials:true,
 }))
